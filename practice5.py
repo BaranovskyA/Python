@@ -18,7 +18,6 @@ def checkValue():
                 for check in currency.keys():
                     if check == fcurr:
                         checks += 1
-
             for currency in currencies:
                 if checks == 0:
                     print('Такой пары валют нет.')
@@ -49,8 +48,6 @@ def checkValue():
             exit()
     except Exception as e:
         print(e)
-
-
 
 
 checkValue()
